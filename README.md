@@ -10,7 +10,8 @@
         .container {
             display: flex;
             width: 100%; /* Set container width to 100% */
-	    margin: 0; /* Add this to remove default margin */
+	     margin-right: 15px;
+             margin-left: 15px;
         }
 
         .left-column {
