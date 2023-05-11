@@ -4,12 +4,13 @@
    <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0; /* Add this to remove default margin */
+           
         }
 
         .container {
             display: flex;
             width: 100%; /* Set container width to 100% */
+	    margin: 0; /* Add this to remove default margin */
         }
 
         .left-column {
