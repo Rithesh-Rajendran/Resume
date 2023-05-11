@@ -75,10 +75,6 @@
     </style>
 </head>
 <body>
-    <center>
-        <h1 style="text-align: center;">Resume</h1>
-    </center>
-
     <div class="container">
         <div class="left-column">
             <img src="https://raw.githubusercontent.com/Rithesh-Rajendran/Website/main/IMG_20210825_162503%20(1).jpg" alt="Profile Photo" style="max-width: 200px; height:200px;">
