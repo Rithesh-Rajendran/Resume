@@ -1,53 +1,111 @@
+<!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="style.css">
-   <style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
         body {
             font-family: Arial, sans-serif;
+            margin: 0;
         }
 
         .container {
             display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 0;
         }
 
- .left-column {
-    position: relative;
-    width: 25%;
-    padding: 20px;
-    background-image: linear-gradient(to bottom, #31aeff, #f5f5f5, #f5f5f5, #f5f5f5, #f5f5f5);
-    border-top-left-radius: 8%;
-    border-top-right-radius: 30%;
-    border-bottom-left-radius: 0%;
-    border-bottom-right-radius: 50%;
-    overflow: hidden; /* Clip the curved design shape */
-}
+        .header {
+            display: flex;
+            align-items: center;
+            background-color: #333333;
+            color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+           
+        }
 
-.left-column::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -50%;
-    width: 200%;
-    height: 100%;
-    background-color: #87ceeb; /* Light blue color */
-    border-radius: 0% 0% 50% 0% / 0% 0% 50% 0%; /* Right curve at the top */
-    z-index: -1; /* Move the shape behind the text content */
-}
+        .profile-photo {
+            max-width: 130px;
+            height: auto;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: 3px solid #ffffff;
+        }
+             .icon {
+      font-size: 20px; /* Adjust the font size as needed */
+      margin-right: 5px; /* Add some spacing between the icon and the text */
+    }
+    
+    .phone-icon {
+      color: red; /* Set the color of the phone icon to red */
+    }
+    
+    .envelope-icon {
+      color: yellow; /* Set the color of the envelope icon to yellow */
+    }
+        .name-title {
+            text-align: center;
+            margin-bottom: 10px;
+            flex-grow: 1;
+        }
 
-.left-column-content {
-    position: relative;
-    z-index: 2; /* Ensure the text content is on top */
-    color: #fff; /* Set the text color to white */
-    padding: 20px;
-}
+        .section-content {
+            font-size: 16px;
+            margin-top: 10px;
+        }
 
-.left-column-text {
-    position: relative;
-}
- right-column {
-            width: 75%;
+        @media only screen and (max-width: 600px) {
+            .header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .profile-photo {
+                margin: 0 auto 20px;
+            }
+        }
+
+        .left-column {
+            position: relative;
+            width: 100%;
+            padding: 20px;
+             background-image: linear-gradient(to bottom, #31aeff, #f5f5f5, #f5f5f5, #f5f5f5, #f5f5f5);
+            border-bottom-left-radius: 0%;
+            border-bottom-right-radius: 50%;
+            overflow: hidden;
+        }
+
+        .left-column::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -50%;
+            width: 200%;
+            height: 100%;
+            background-color: #87ceeb;
+            border-radius: 0% 0% 50% 0%;
+            z-index: -1;
+        }
+
+        .left-column-content {
+            position: relative;
+            z-index: 2;
+            color: #fff;
             padding: 20px;
         }
+
+        .left-column-text {
+            position: relative;
+        }
+
+        .right-column {
+            width: 100%;
+            padding: 20px;
+        }
+
         .section {
             margin-bottom: 20px;
         }
@@ -63,15 +121,18 @@
 
         .strengths,
         .declaration {
-            margin-top: 20px;
+            margin-top: 0px;
         }
-      .button-bar {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: #ffff;
-      }
-     
+
+    .button-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffff;
+  padding: 10px;
+  width: 100%; /* Added property */
+}
+
 .button-bar button {
   border: none;
   padding: 10px 20px;
@@ -80,12 +141,13 @@
   font-size: 16px;
   cursor: pointer;
   transition: all 0.3s ease;
+  flex-grow: 1; /* Added property */
+  margin: 0 5px; /* Added property */
 }
-
-.button-bar button.active {
-  background-color: #333;
-  color: #fff;
-}
+        .button-bar button.active {
+            background-color: #333;
+            color: #fff;
+        }
 /* Style for left content */
 #left-content {
   display: block;
@@ -105,14 +167,14 @@
   border-radius: 0px;
 }
 .skill-bar {
-  width: 600px;
+  width: 100%;
   height: 17px;
   background-color: #ddd;
   border-radius: 10px;
   position: relative;
   overflow: hidden;
   margin-bottom: 10px;
-  
+ 
 }
 
 .skill-progress {
@@ -208,18 +270,27 @@
     </style>
 </head>
 <body>
-<div class="container">
+<header class="header">
+    <img class="profile-photo" src="https://raw.githubusercontent.com/Rithesh-Rajendran/Website/main/IMG_20210825_162503%20(1).jpg" alt="Profile Photo">
+ <div class="name-title">
+  <h2>RITHESH R</h2>
+  <h2>Technical Engineer</h2>
+  <p class="section-content">
+    <strong><span class="icon phone-icon">&#9742;</span></strong> 9940188948<br>
+    <strong><span class="icon envelope-icon">&#9993;</span></strong> ritheshrao12@gmail.com<br>
+    <strong><span class="icon">&#127968;</span></strong> 3116, 3rd main road, mathur, M.M.D.A, Chennai-600068.
+  </p>
+</div>
+  </header>
+
+    <div class="container">
         <div class="left-column">
-            <img src="https://raw.githubusercontent.com/Rithesh-Rajendran/Website/main/IMG_20210825_162503%20(1).jpg" alt="Profile Photo" style="max-width: 200px; height:200px;">
-            <h2>RITHESH R</h2>
-            <h2>Technical Engineer</h2>
-            <h2 class="section-title">Contact</h2>
+           
+           <h2 class="section-title">Profile</h2>
             <p class="section-content">
-                <strong>PHONE:</strong> 9940188948<br>
-                <strong>EMAIL:</strong> ritheshrao12@gmail.com<br>
-                <strong>ADDRESS:</strong> 3116, 3rd main road, mathur, M.M.D.A, Chennai-600068.
+               To work with a company which appreciates innovation so that I can enhance my knowledge and skills to give my best for the growth of the company.
             </p>
-          
+            
              <div class="section">
                 <h2 class="section-title">Education</h2>
                 <p class="section-content">
@@ -240,39 +311,8 @@
 
             </div>
 
-            <div class="section">
-                <h2 class="section-title">Languages</h2>
-                <p class="section-content">
-                    English<br>
-                    Hindi<br>
-                    Tamil<br>
-                    Marathi
-                </p>
-            </div>
-
-            <div class="section">
-                <h2 class="section-title">Hobbies</h2>
-                <p class="section-content">
-                    Designing<br>
-                    Photography<br>
-                    Traveling<br>	
-                    Circket<br>
-                    
-                </p>
-            </div>
-           <div class="section">
-               <h2 class="section-title">Soft Skills</h2>
-               <p class="section-content">  
-                Android Studio<br>
-                MS Excel<br>
-                Power Point<br>
-                Adobe Illustrator<br>
-                Adobe Photoshop<br>
-               
-		       </p>
-               </div>
-
-          
+            
+         
                <!--<div class="section">
                <h2 class="section-title">Soft Skills</h2>
                <p class="section-content">  
@@ -286,10 +326,6 @@
                </div>
 
         <div class="right-column">
-            <h2 class="section-title">Profile</h2>
-            <p class="section-content">
-               To work with a company which appreciates innovation so that I can enhance my knowledge and skills to give my best for the growth of the company.
-            </p>
 
             <div class="section">
                 <h2 class="section-title">Work Experience</h2>
@@ -322,7 +358,24 @@
                     • Maintained seamless end-to-end communication by delivering support for Video Conferencing System.
                 </p>
             </div>
-
+  <div class="section">
+<h2 class="section-title">Technical Skills</h2>
+  <p class="section-content">        
+                • Creating websites<br>
+                • Developing Android applications<br>
+                • Maintaining cloud servers (Streaming servers. VPN servers)<br>
+                • Streaming cloud servers (RTMP, HLS, DASH, HTTPS, SRT, RTSP)<br>
+                • Publishing APK in Google and App Store<br>
+                • Testing newly developed software's in server<br>
+                • Testing Hardware devices (Internet aggregator, Bonding device, Encoders, Receivers, Android
+                boxes, Routers, Network boosters)<br>
+                • Good knowledge of cloud-based solutions<br>
+                • Strong problem-solving ability<br>
+                • Basic knowledge of security best practices Installing OS (Ubuntu, Linux, windows)<br>
+                • Resolving Server and Network related issues<br>
+                • Presenting software and hardware demo to clients. Setting-up servers and configuring on-site.
+          </p>
+            </div>
        <div class="section">
     <div class="button-bar">
         <button id="left-btn" class="full-width active">Programing Skills</button>
@@ -444,41 +497,42 @@
         </div>
     </div>
 </div></center>
-              
-            <div class="section"> 
-	 <h2 class="section-title">Technical Skills</h2>
- 		<p class="section-content">        
-                • Creating websites<br>
-                • Developing Android applications<br>
-                • Maintaining cloud servers (Streaming servers. VPN servers)<br>
-                • Streaming cloud servers (RTMP, HLS, DASH, HTTPS, SRT, RTSP)<br>
-                • Publishing APK in Google and App Store<br>
-                • Testing newly developed software's in server<br>
-                • Testing Hardware devices (Internet aggregator, Bonding device, Encoders, Receivers, Android
-                boxes, Routers, Network boosters)<br>
-                • Good knowledge of cloud-based solutions<br>
-                • Strong problem-solving ability<br>
-                • Basic knowledge of security best practices Installing OS (Ubuntu, Linux, windows)<br>
-                • Resolving Server and Network related issues<br>
-                • Presenting software and hardware demo to clients. Setting-up servers and configuring on-site.
-          </p>
-            </div>
-			<div class="section"> 
-	 <h2 class="section-title">soft Skills</h2>
- 		 <p class="section-content">  
+             
+   <div class="section">
+               <h2 class="section-title">Apk Skills</h2>
+               <p class="section-content">  
+                Android Studio<br>
+                MS Excel<br>
+                Power Point<br>
+                Adobe Illustrator<br>
+                Adobe Photoshop
+               </p>
+               </div>
+         
+<div class="section">
+<h2 class="section-title">soft Skills</h2>
+  <p class="section-content">  
                 • Outstanding customer service and client interfacing skills.<br>
                 • Ability to perform excellently on individual projects and cooperatively on teams.<br>
                 • High adaptability and capable of handling high workloads.<br>
                 • Primary help desk technical assistance and troubleshooting on IT platform.
                </p>
             </div>
+<div class="section">
+    <p class="section-content">
+        <strong>Languages:</strong><br>
+        <i class="fas fa-language" style="color: blue;"></i> English, <i class="fas fa-language" style="color: red;"></i> Hindi, <i class="fas fa-language" style="color: green;"></i> Marathi, <i class="fas fa-language" style="color: orange;"></i> Tamil | (Fluent)<br><br>
+        <strong>Hobbies:</strong><br>
+        <i class="fas fa-paint-brush" style="color: purple;"></i> Designing, <i class="fas fa-camera" style="color: yellow;"></i> Photography, <i class="fas fa-plane" style="color: teal;"></i> Traveling, <i class="fas fa-baseball-ball" style="color: red;"></i> Cricket<br><br>
+    </p>
+</div>
 
             <div class="section">
                 <h2 class="section-title">Internship & Certification</h2>
                 <p class="section-content">
                     • Cisco CCNA Certified<br>
                     • Attended Industrial exposure program at wikitechy
-					• Java & Manual testing certified under 
+• Java & Manual testing certified under
                 </p>
             </div>
 
@@ -486,8 +540,9 @@
             <div class="section">
                 <h2 class="section-title">Declaration</h2>
                 <p class="section-content">
-                    Thereby declare that the information furnished above is true and correct to my knowledge and belief.<br> 
-					<b>RITHESH R</b>
+                    Thereby declare that the information furnished above is true and correct to my knowledge and belief.<br>
+                    <br>
+<b>RITHESH R</b>
                 </p>
             </div>
         </div>
@@ -507,7 +562,7 @@ function toggleButton(button) {
   for (var i = 0; i < buttons.length; i++) {
     buttons[i].classList.remove('active');
   }
-  
+ 
   // Add the 'active' class to the clicked button
   button.classList.add('active');
 }
