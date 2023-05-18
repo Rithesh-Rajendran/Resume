@@ -28,7 +28,7 @@
 
         .profile-photo {
             width: 130px;
-            height: 130px;
+            height: 160px;
             border-radius: 50%;
             object-fit: cover;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -70,7 +70,6 @@
 
         .left-column {
             position: relative;
-            width: 100%;
             padding: 20px;
              background-image: linear-gradient(to bottom, #31aeff, #f5f5f5, #f5f5f5, #f5f5f5, #f5f5f5);
             border-bottom-left-radius: 0%;
@@ -83,7 +82,7 @@
             position: absolute;
             top: 0;
             left: -50%;
-            width: 200%;
+            width: 100%;
             height: 100%;
             background-color: #87ceeb;
             border-radius: 0% 0% 50% 0%;
@@ -102,7 +101,6 @@
         }
 
         .right-column {
-            width: 100%;
             padding: 20px;
         }
 
