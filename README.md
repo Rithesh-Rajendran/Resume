@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -26,8 +27,8 @@
         }
 
         .profile-photo {
-            width: 130px;
-            height: 160px;
+            max-width: 130px;
+            height: auto;
             border-radius: 50%;
             object-fit: cover;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
