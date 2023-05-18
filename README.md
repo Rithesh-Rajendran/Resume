@@ -14,6 +14,7 @@
             flex-wrap: wrap;
             justify-content: space-between;
             margin: 0;
+            width: 100%;
         }
 
         .header {
@@ -75,6 +76,7 @@
             border-bottom-left-radius: 0%;
             border-bottom-right-radius: 50%;
             overflow: hidden;
+            width:100%;
         }
 
         .left-column::before {
@@ -82,7 +84,7 @@
             position: absolute;
             top: 0;
             left: -50%;
-            width: 100%;
+            width: 200%;
             height: 100%;
             background-color: #87ceeb;
             border-radius: 0% 0% 50% 0%;
