@@ -306,23 +306,7 @@
                     St.thomas.mat.hr.sec.school<br>
                     SSLC 2015<br>
                     81%
-                </p>
-
-            </div>
-
-            
-         
-               <!--<div class="section">
-               <h2 class="section-title">Soft Skills</h2>
-               <p class="section-content">  
-                • Outstanding customer service and client interfacing skills.<br>
-                • Ability to perform excellently on individual projects and cooperatively on teams.<br>
-                • High adaptability and capable of handling high workloads.<br>
-                • Primary help desk technical assistance and troubleshooting on IT platform.
-               </p>
-               </div>-->
-               </p>
-               </div>
+                </p></div>
 
         <div class="right-column">
 
