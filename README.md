@@ -27,8 +27,8 @@
         }
 
         .profile-photo {
-            max-width: 130px;
-            height: auto;
+            width: 130px;
+            height: 130px;
             border-radius: 50%;
             object-fit: cover;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
