@@ -369,7 +369,8 @@
                     • Maintenance and upgrading of computer systems or offering recommendations on upgrades needed.<br />
                     • Maintaining CCTV operations and backup<br />
                     • Support and troubleshooting cloud server related issues.<br />
-                    • Implement effective security measures to protect data, software, and hardware • Deliver Tier 1 network ticketing support to resolve all issues for 500+ users<br />
+                    • Implement effective security measures to protect data, software, and hardware 
+                    • Deliver Tier 1 network ticketing support to resolve all issues for 500+ users<br />
                     • Handling all support calls and Manage engine ticketing system.<br />
                     • Execute the maintenance window changes for multiple locations, performing troubleshooting of routing and switching issues<br />
                     • Providing first-level support services for software and hardware for the end-users.<br />
@@ -611,5 +612,5 @@ rightBtn.addEventListener("click", () => {
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script>anchors.add();</script>
-  </body>
+ </body>
 </html>
