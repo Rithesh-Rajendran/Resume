@@ -1,44 +1,81 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+    <title>Rithesh-Resume</title>
+    <meta name="generator" content="Jekyll v3.9.3" />
+    <meta property="og:title" content="Resume" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="description" content="Resume" />
+    <meta property="og:description" content="Resume" />
+    <link rel="canonical" href="https://rithesh-rajendran.github.io/" /> <!-- Remove "/Resume" from the URL -->
+    <meta property="og:url" content="https://rithesh-rajendran.github.io/" /> <!-- Remove "/Resume" from the URL -->
+    <meta property="og:site_name" content="Resume" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary" />
+    <meta property="twitter:title" content="Resume" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "description": "Resume",
+        "headline": "Resume",
+        "name": "Resume",
+        "url": "https://rithesh-rajendran.github.io/"
+      }
+    </script>
+    <!-- End Jekyll SEO tag -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="/Resume/assets/css/style.css?v=6585fbdfafdd8d75bc74c2d7c96327dd5b61eb6e">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+    <!-- Setup Google Analytics -->
+
+    <!-- You can set your favicon here -->
+    <link rel="shortcut icon" type="image/x-icon" href="https://e7.pngegg.com/pngimages/619/959/png-clipart-logo-website-development-favicon-web-design-design-angle-web-design.png">
+
+    <!-- end custom head snippets -->
+
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-        }
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+      }
 
-        .container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            margin: 0;
-            width: 100%;
-        }
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0;
+        width: 100%;
+      }
 
-        .header {
-            display: flex;
-            align-items: center;
-            background-color: #333333;
-            color: #ffffff;
-            padding: 20px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-           
-        }
+      .header {
+        display: flex;
+        align-items: center;
+        background-color: #333333;
+        color: #ffffff;
+        padding: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
 
-        .profile-photo {
-            width: 130px;
-            height: 160px;
-            border-radius: 50%;
-            object-fit: cover;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border: 3px solid #ffffff;
-        }
-             .icon {
-      font-size: 20px; /* Adjust the font size as needed */
-      margin-right: 5px; /* Add some spacing between the icon and the text */
-    }
+      .profile-photo {
+        width: 130px;
+        height: 160px;
+        border-radius: 50%;
+        object-fit: cover;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border: 3px solid #ffffff;
+      }
+
+      .icon {
+        font-size: 20px; /* Adjust the font size as needed */
+        margin-right: 5px; /* Add some spacing between the icon and the text */
+      }
     
     .phone-icon {
       color: red; /* Set the color of the phone icon to red */
@@ -271,13 +308,13 @@
 </head>
 <body>
 <header class="header">
-    <img class="profile-photo" src="https://raw.githubusercontent.com/Rithesh-Rajendran/Resume/main/IMG_20210825_162503%20(1).jpg" alt="Profile Photo">
+    <img class="profile-photo" src="https://raw.githubusercontent.com/Rithesh-Rajendran/Resume/main/IMG_20210825_162503%20(1).jpg" alt="Profile Photo" />
  <div class="name-title">
   <h2>RITHESH R</h2>
   <h2>Technical Engineer</h2>
   <p class="section-content">
-    <strong><span class="icon phone-icon">&#9742;</span></strong> 9940188948<br>
-    <strong><span class="icon envelope-icon">&#9993;</span></strong> ritheshrao12@gmail.com<br>
+    <strong><span class="icon phone-icon">&#9742;</span></strong> 9940188948<br />
+    <strong><span class="icon envelope-icon">&#9993;</span></strong> ritheshrao12@gmail.com<br />
     <strong><span class="icon">&#127968;</span></strong> 3116, 3rd main road, mathur, M.M.D.A, Chennai-600068.
   </p>
 </div>
@@ -294,35 +331,22 @@
              <div class="section">
                 <h2 class="section-title">Education</h2>
                 <p class="section-content">
-                    Apollo Engineering College, Anna University<br>
-                    BE CSE 2017 - 2021<br>
+                    Apollo Engineering College, Anna University<br />
+                    BE CSE 2017 - 2021<br />
                     71%
                 </p>
 <p class="section-content">
-                    Velammal.mat.hr.sec.school<br>
-                    HSC 2017<br>
+                    Velammal.mat.hr.sec.school<br />
+                    HSC 2017<br />
                     68%
                 </p>
 <p class="section-content">
-                    St.thomas.mat.hr.sec.school<br>
-                    SSLC 2015<br>
+                    St.thomas.mat.hr.sec.school<br />
+                    SSLC 2015<br />
                     81%
                 </p>
 
             </div>
-
-            
-         
-               <!--<div class="section">
-               <h2 class="section-title">Soft Skills</h2>
-               <p class="section-content">  
-                • Outstanding customer service and client interfacing skills.<br>
-                • Ability to perform excellently on individual projects and cooperatively on teams.<br>
-                • High adaptability and capable of handling high workloads.<br>
-                • Primary help desk technical assistance and troubleshooting on IT platform.
-               </p>
-               </div>-->
-               </p>
                </div>
 
         <div class="right-column">
@@ -330,49 +354,49 @@
             <div class="section">
                 <h2 class="section-title">Work Experience</h2>
                 <p class="section-content">
-                    <strong>Redisolve Software</strong><br>
-                    System Admin<br>
-                    (September 2021 - February 2022)<br><br>
+                    <strong>Redisolve Software</strong><br />
+                    System Admin<br />
+                    (September 2021 - February 2022)<br /><br />
 
-                    <strong>CDTECH Innovation PVT LTD, INDIA</strong><br>
-                    Technical Support Engineer<br>
-                    (February 2022 - till date)<br><br>
+                    <strong>CDTECH Innovation PVT LTD, INDIA</strong><br />
+                    Technical Support Engineer<br />
+                    (February 2022 - till date)<br /><br />
 
-                    • Managing the entire IT System<br>
-                    • Developing website and mobile applications based on clients' requirements<br>
-                    • Testing software on cloud-based servers<br>
-                    • Interacting with vendor support contacts to resolve technical problems with desktop computing equipment, Router and telephone systems.<br>
-                    • Managed the design, installation, and management of organization-wide local area network, wide area network, network segment, and internet system<br>
-                    • Maintenance and upgrading of computer systems or offering recommendations on upgrades needed.<br>
-                    • Maintaining CCTV operations and backup<br>
-                    • Support and troubleshooting cloud server related issues.<br>
-                    • Implement effective security measures to protect data, software, and hardware • Deliver Tier 1 network ticketing support to resolve all issues for 500+ users<br>
-                    • Handling all support calls and Manage engine ticketing system.<br>
-                    • Execute the maintenance window changes for multiple locations, performing troubleshooting of routing and switching issues<br>
-                    • Providing first-level support services for software and hardware for the end-users.<br>
-                    • Wireless Router, switches and Access point installation and Setup.<br>
-                    • Installation of client-based windows OS and configure organizational standard applications.<br>
-                    • Testing Hardware devices (Internet aggregator, Bonding device, Encoders, Receivers, Android boxes, Routers, Network booster)<br>
-                    • Resolving Server and Network related issues<br>
-                    • Designed, configured, and installed all Data Center Network Devices to support 1000+ users<br>
+                    • Managing the entire IT System<br />
+                    • Developing website and mobile applications based on clients' requirements<br />
+                    • Testing software on cloud-based servers<br />
+                    • Interacting with vendor support contacts to resolve technical problems with desktop computing equipment, Router and telephone systems.<br />
+                    • Managed the design, installation, and management of organization-wide local area network, wide area network, network segment, and internet system<br />
+                    • Maintenance and upgrading of computer systems or offering recommendations on upgrades needed.<br />
+                    • Maintaining CCTV operations and backup<br />
+                    • Support and troubleshooting cloud server related issues.<br />
+                    • Implement effective security measures to protect data, software, and hardware • Deliver Tier 1 network ticketing support to resolve all issues for 500+ users<br />
+                    • Handling all support calls and Manage engine ticketing system.<br />
+                    • Execute the maintenance window changes for multiple locations, performing troubleshooting of routing and switching issues<br />
+                    • Providing first-level support services for software and hardware for the end-users.<br />
+                    • Wireless Router, switches and Access point installation and Setup.<br />
+                    • Installation of client-based windows OS and configure organizational standard applications.<br />
+                    • Testing Hardware devices (Internet aggregator, Bonding device, Encoders, Receivers, Android boxes, Routers, Network booster)<br />
+                    • Resolving Server and Network related issues<br />
+                    • Designed, configured, and installed all Data Center Network Devices to support 1000+ users<br />
                     • Maintained seamless end-to-end communication by delivering support for Video Conferencing System.
                 </p>
             </div>
   <div class="section">
 <h2 class="section-title">Technical Skills</h2>
   <p class="section-content">        
-                • Creating websites<br>
-                • Developing Android applications<br>
-                • Maintaining cloud servers (Streaming servers. VPN servers)<br>
-                • Streaming cloud servers (RTMP, HLS, DASH, HTTPS, SRT, RTSP)<br>
-                • Publishing APK in Google and App Store<br>
-                • Testing newly developed software's in server<br>
+                • Creating websites<br />
+                • Developing Android applications<br />
+                • Maintaining cloud servers (Streaming servers. VPN servers)<br />
+                • Streaming cloud servers (RTMP, HLS, DASH, HTTPS, SRT, RTSP)<br />
+                • Publishing APK in Google and App Store<br />
+                • Testing newly developed software's in server<br />
                 • Testing Hardware devices (Internet aggregator, Bonding device, Encoders, Receivers, Android
-                boxes, Routers, Network boosters)<br>
-                • Good knowledge of cloud-based solutions<br>
-                • Strong problem-solving ability<br>
-                • Basic knowledge of security best practices Installing OS (Ubuntu, Linux, windows)<br>
-                • Resolving Server and Network related issues<br>
+                boxes, Routers, Network boosters)<br />
+                • Good knowledge of cloud-based solutions<br />
+                • Strong problem-solving ability<br />
+                • Basic knowledge of security best practices Installing OS (Ubuntu, Linux, windows)<br />
+                • Resolving Server and Network related issues<br />
                 • Presenting software and hardware demo to clients. Setting-up servers and configuring on-site.
           </p>
             </div>
@@ -496,15 +520,15 @@
   </div>
         </div>
     </div>
-</div></center>
+</center>
              
    <div class="section">
                <h2 class="section-title">Apk Skills</h2>
                <p class="section-content">  
-                Android Studio<br>
-                MS Excel<br>
-                Power Point<br>
-                Adobe Illustrator<br>
+                Android Studio<br />
+                MS Excel<br />
+                Power Point<br />
+                Adobe Illustrator<br />
                 Adobe Photoshop
                </p>
                </div>
@@ -512,27 +536,27 @@
 <div class="section">
 <h2 class="section-title">soft Skills</h2>
   <p class="section-content">  
-                • Outstanding customer service and client interfacing skills.<br>
-                • Ability to perform excellently on individual projects and cooperatively on teams.<br>
-                • High adaptability and capable of handling high workloads.<br>
+                • Outstanding customer service and client interfacing skills.<br />
+                • Ability to perform excellently on individual projects and cooperatively on teams.<br />
+                • High adaptability and capable of handling high workloads.<br />
                 • Primary help desk technical assistance and troubleshooting on IT platform.
                </p>
             </div>
 <div class="section">
     <p class="section-content">
-        <strong>Languages:</strong><br>
-        <i class="fas fa-language" style="color: blue;"></i> English, <i class="fas fa-language" style="color: red;"></i> Hindi, <i class="fas fa-language" style="color: green;"></i> Marathi, <i class="fas fa-language" style="color: orange;"></i> Tamil | (Fluent)<br><br>
-        <strong>Hobbies:</strong><br>
-        <i class="fas fa-paint-brush" style="color: purple;"></i> Designing, <i class="fas fa-camera" style="color: yellow;"></i> Photography, <i class="fas fa-plane" style="color: teal;"></i> Traveling, <i class="fas fa-baseball-ball" style="color: red;"></i> Cricket<br><br>
+        <strong>Languages:</strong><br />
+        <i class="fas fa-language" style="color: blue;"></i> English, <i class="fas fa-language" style="color: red;"></i> Hindi, <i class="fas fa-language" style="color: green;"></i> Marathi, <i class="fas fa-language" style="color: orange;"></i> Tamil | (Fluent)<br /><br />
+        <strong>Hobbies:</strong><br />
+        <i class="fas fa-paint-brush" style="color: purple;"></i> Designing, <i class="fas fa-camera" style="color: yellow;"></i> Photography, <i class="fas fa-plane" style="color: teal;"></i> Traveling, <i class="fas fa-baseball-ball" style="color: red;"></i> Cricket<br /><br />
     </p>
 </div>
 
             <div class="section">
-                <h2 class="section-title">Internship & Certification</h2>
+                <h2 class="section-title">Internship &amp; Certification</h2>
                 <p class="section-content">
-                    • Cisco CCNA Certified<br>
+                    • Cisco CCNA Certified<br />
                     • Attended Industrial exposure program at wikitechy
-• Java & Manual testing certified under
+• Java &amp; Manual testing certified under
                 </p>
             </div>
 
@@ -540,8 +564,8 @@
             <div class="section">
                 <h2 class="section-title">Declaration</h2>
                 <p class="section-content">
-                    Thereby declare that the information furnished above is true and correct to my knowledge and belief.<br>
-                    <br>
+                    Thereby declare that the information furnished above is true and correct to my knowledge and belief.<br />
+                    <br />
 <b>RITHESH R</b>
                 </p>
             </div>
@@ -586,5 +610,7 @@ rightBtn.addEventListener("click", () => {
 });
 </script>
 
-</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+  </body>
 </html>
