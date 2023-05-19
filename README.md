@@ -271,7 +271,7 @@
 </head>
 <body>
 <header class="header">
-    <img class="profile-photo" src="https://raw.githubusercontent.com/Rithesh-Rajendran/Resume/main/IMG_20210825_162503%20(1).jpg)" alt="Profile Photo">
+    <img class="profile-photo" src="https://raw.githubusercontent.com/Rithesh-Rajendran/Resume/main/IMG_20210825_162503%20(1).jpg" alt="Profile Photo">
  <div class="name-title">
   <h2>RITHESH R</h2>
   <h2>Technical Engineer</h2>
