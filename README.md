@@ -166,7 +166,7 @@
   justify-content: center;
   align-items: center;
   background-color: #ffff;
-  padding: 10px;
+  padding: 5px;
   width: 100%; /* Added property */
 }
 
