@@ -35,7 +35,7 @@
     <!-- Setup Google Analytics -->
 
     <!-- You can set your favicon here -->
-    <link rel="shortcut icon" type="image/x-icon" href="https://e7.pngegg.com/pngimages/619/959/png-clipart-logo-website-development-favicon-web-design-design-angle-web-design.png">
+    <link rel="shortcut icon" type="image/x-icon" href="https://raw.githubusercontent.com/Rithesh-Rajendran/Resume/main/favicon.png">
 
     <!-- end custom head snippets -->
 
