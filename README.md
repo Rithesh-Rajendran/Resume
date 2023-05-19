@@ -304,6 +304,22 @@
     opacity: 1;
   }
 }
+        .download-button {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #333333;
+            color: #ffffff;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .download-button a {
+            text-decoration: none;
+            color: #ffffff;
+        }
     </style>
 </head>
 <body>
@@ -572,6 +588,9 @@
             </div>
         </div>
     </div>
+        <b><div class="download-button">
+        <a href="resume.pdf" download>Click here to download Resume</a>
+          </div></b>
 <script src="script.js"></script>
 <script>
 const leftBtn = document.getElementById("left-btn");
