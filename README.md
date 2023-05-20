@@ -320,6 +320,38 @@
             text-decoration: none;
             color: #ffffff;
         }
+      .wrapper {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.cursor {
+  width: 10px;
+  height: 10px;
+  border: 3px solid white;
+  border-radius: 40%;
+  position: absolute;
+  pointer-events: none;
+}
+
+.cursoreffect {
+  content: "";
+  width: 20px;
+  height: 20px;
+  border: 6px solid #a8eb12;
+  box-shadow: 0 0 20px #FF0000, 0 0 40px #F4FF00, 0 0 60px #CB1100;
+  border-radius: 50%;
+  position: absolute;
+  animation: cursorPulse 1s;
+  pointer-events: none;
+}
+
+@keyframes cursorPulse {
+  0% { transform: scale(1.0); opacity: 1; }
+  100% { transform: scale(3.0); opacity: 0; }
+}
     </style>
 </head>
 <body>
@@ -628,6 +660,29 @@ rightBtn.addEventListener("click", () => {
     toggleButton(rightBtn);
   }
 });
+</script>
+  <script>
+//Custom cursor to follow cursor
+const cursor = document.querySelector('.cursor');
+
+document.addEventListener('mousemove', e => {
+  cursor.style.top = (e.pageY - 15) + 'px';
+  cursor.style.left = (e.pageX - 20) + 'px';
+});
+
+//Add on click pulse effect
+function clickEffect(e) {
+  const effect = document.createElement('div');
+  effect.className = 'cursoreffect';
+  effect.style.top = (e.pageY - 16) + 'px';
+  effect.style.left = (e.pageX - 21) + 'px';
+  document.body.appendChild(effect);
+  effect.addEventListener('animationend', function () {
+    effect.parentElement.removeChild(effect);
+  });
+}
+
+document.addEventListener('click', clickEffect);
 </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
