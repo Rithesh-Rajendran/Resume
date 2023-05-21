@@ -621,7 +621,7 @@
         </div>
     </div>
         <b><div class="download-button">
-        <a href="resume.pdf" download>Click here to download Resume</a>
+        <a href="https://raw.githubusercontent.com/Rithesh-Rajendran/Resume/72aec2a723ecb4985ef13b83b4d9c7d96c62dd32/Merged_document%20(1).pdf" download>Click here to download Resume</a>
           </div></b>
 <script src="script.js"></script>
 <script>
